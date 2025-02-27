@@ -1,1 +1,1 @@
-# parallax-course
+# parallax-course by Andrii Nazaruk 
