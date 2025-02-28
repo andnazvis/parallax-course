@@ -10,6 +10,8 @@ Efekt paralaksy to popularna technika web designu, która dodaje iluzję głębi
 
 ## 🛠️ Jak uruchomić projekt?
 
+Po linku (nie wiem czy bedzie dzialac) - https://andnazvis.github.io/parallax-course/
+
 Aby uruchomić stronę lokalnie na swoim komputerze:
 
 ### 1️⃣ **Sklonuj repozytorium**
