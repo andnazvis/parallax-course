@@ -2,6 +2,12 @@
 
 # 🌍 Efekt Paralaksy – Interaktywny kurs online
 
+# 📌 Efekt Paralaksy – Mini Kurs i Test
+Witaj w mini kursie o efekcie paralaksy! 🎉
+Ten kurs został stworzony, aby pomóc Ci zrozumieć, jak działa efekt paralaksy i jak można go zastosować w projektowaniu stron internetowych. Nauczysz się zarówno podstaw teoretycznych, jak i praktycznych technik implementacji tego efektu za pomocą CSS i JavaScript.
+
+# https://classroom.google.com/c/NzU3ODM5NDIxNTUz?cjc=aiqolmr
+
 ## 📌 Opis projektu
 Efekt paralaksy to popularna technika web designu, która dodaje iluzję głębi i dynamiki do stron internetowych. W tym projekcie znajdziesz:
 - 📖 **Teoretyczne wprowadzenie** do efektu paralaksy
