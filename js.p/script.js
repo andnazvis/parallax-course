@@ -55,7 +55,33 @@ const quizData = [
         question: "Czy efekt paralaksy można zrobić w JavaScript?",
         options: ["Tak", "Nie", "Tylko w PHP", "Tylko w Pythonie"],
         correct: 0
+    },
+    {
+        question: "Jaki jest główny cel efektu paralaksy na stronach internetowych?",
+        options: ["Poprawa szybkości ładowania strony", "Stworzenie iluzji głębi i ruchu", "Zmniejszenie zużycia pamięci RAM", "Optymalizacja kodu HTML"],
+        correct: 1
+    },
+    {
+        question: "Które z poniższych zastosowań paralaksy jest najbardziej popularne?",
+        options: ["Formularze kontaktowe", "Efekty tekstowe", "Tła w stronach produktowych", "Zmiana kolorów przy przewijaniu"],
+        correct: 2
+    },
+    {
+        question: "Jak można sprawić, by efekt paralaksy był bardziej płynny?",
+        options: ["Użyć mniejszych obrazów", "Użyć transformacji CSS i optymalizować animacje", "Unikać użycia JavaScript", "Dodawać więcej efektów do strony"],
+        correct: 1
+    },
+    {
+        question: "Jaka jednostka w CSS jest najczęściej używana do określania wysokości efektu paralaksy?",
+        options: ["px", "em", "vh", "%"],
+        correct: 2
+    },
+    {
+        question: "Czy efekt paralaksy może wpływać na dostępność strony?",
+        options: ["Nie, nie ma to wpływu", "Tak, może powodować problemy dla osób z problemami wzroku", "Nie, jeśli strona jest dobrze zoptymalizowana", "Tak, ale tylko w przeglądarkach mobilnych"],
+        correct: 1
     }
+    
 ];
 
 // Generowanie pytań testowych
