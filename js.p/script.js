@@ -1,10 +1,10 @@
-// Efekt paralaksy
+// tutaj efekt paralaksy
 window.addEventListener('scroll', function() {
     let scrollPosition = window.scrollY;
     document.querySelector('.parallax').style.backgroundPositionY = scrollPosition * 0.5 + 'px';
 });
 
-// Pytania do testu
+// tutaj pytania do testu
 const quizData = [
     {
         question: "Co to jest efekt paralaksy?",
@@ -84,7 +84,7 @@ const quizData = [
     
 ];
 
-// Generowanie pytań testowych
+// tutaj generowanie pytan testowych
 function loadQuiz() {
     let quizContainer = document.getElementById("quiz-container");
     quizData.forEach((q, index) => {
@@ -106,7 +106,7 @@ function loadQuiz() {
     });
 }
 
-// Funkcja do sprawdzania wyników
+// tutaj funkcja do sprawdzania wynikow
 function submitQuiz() {
     let score = 0;
     quizData.forEach((q, index) => {
