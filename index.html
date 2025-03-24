@@ -1,53 +1,74 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Efekt Paralaksy</title>
-    <link rel="stylesheet" href="css.p/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parallax Forest</title>
+  <link rel="stylesheet" href="css.p/style.css"/>
 </head>
 <body>
+  <header>
+    <h2 class="logo">Nazaruk Paralax</h2>
+    <nav class="navigation">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Service</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
 
-    <div class="parallax"></div>
+  <!-- PARALLAX SECTION -->
+  <section class="parallax">
+    <img src="background.image/hill1.png" id="hill1" />
+    <img src="background.image/hill2.png" id="hill2" />
+    <img src="background.image/hill3.png" id="hill3" />
+    <img src="background.image/hill4.png" id="hill4" />
+    <img src="background.image/hill5.png" id="hill5" />
+    <img src="background.image/tree.png" id="tree" />
+    <h2 id="text">Parallax Website</h2>
+    <img src="background.image/leaf.png" id="leaf" />
+    <img src="background.image/plant.png" id="plant" />
+  </section>
 
-    <div class="content">
-        <h2>📝 KONCEPCJA: EFEKT PARALAKSY</h2>
-        <h3>🔹 Czym jest efekt paralaksy?</h3>
-        <p>Efekt paralaksy polega na tym, że elementy w tle poruszają się wolniej niż te na pierwszym planie. Dzięki temu powstaje iluzja głębi i przestrzeni, co sprawia, że strona wygląda bardziej dynamicznie i nowocześnie.</p>
-        <p>To zjawisko można porównać do rzeczywistości:</p>
-        <ul>
-            <li>🚗 Podczas jazdy samochodem – drzewa przy drodze przesuwają się szybko, ale góry na horyzoncie poruszają się wolniej.</li>
-            <li>🎬 W animacjach i grach – twórcy stosują ten efekt, aby nadać scenom większej głębi.</li>
-        </ul>
-    </div>
+  <!-- KONSPEKT -->
+  <div class="content">
+    <h2>📝 KONCEPCJA: EFEKT PARALAKSY</h2>
+    <h3>🔹 Czym jest efekt paralaksy?</h3>
+    <p>Efekt paralaksy polega na tym, że elementy w tle poruszają się wolniej niż te na pierwszym planie. Dzięki temu powstaje iluzja głębi i przestrzeni, co sprawia, że strona wygląda bardziej dynamicznie i nowocześnie.</p>
+    <p>To zjawisko można porównać do rzeczywistości:</p>
+    <ul>
+      <li>🚗 Podczas jazdy samochodem – drzewa przy drodze przesuwają się szybko, ale góry na horyzoncie poruszają się wolniej.</li>
+      <li>🎬 W animacjach i grach – twórcy stosują ten efekt, aby nadać scenom większej głębi.</li>
+    </ul>
+  </div>
 
-    <div class="content">
-        <h3>🔹 Gdzie stosuje się efekt paralaksy?</h3>
-        <ul>
-            <li>📱 <b>Strony produktów</b> - Apple, Samsung używają paralaksy do wyróżnienia swoich produktów.</li>
-            <li>💰 <b>Landing pages</b> - Paralaksa zwiększa konwersję i zatrzymuje użytkownika na stronie.</li>
-            <li>🎨 <b>Portfolio</b> - Artyści stosują paralaksę, by ich strony wyglądały bardziej profesjonalnie.</li>
-            <li>🚀 <b>Storytelling</b> - NASA używa paralaksy w swoich interaktywnych opowieściach.</li>
-        </ul>
-    </div>
+  <div class="content">
+    <h3>🔹 Gdzie stosuje się efekt paralaksy?</h3>
+    <ul>
+      <li>📱 <b>Strony produktów</b> - Apple, Samsung używają paralaksy do wyróżnienia swoich produktów.</li>
+      <li>💰 <b>Landing pages</b> - Paralaksa zwiększa konwersję i zatrzymuje użytkownika na stronie.</li>
+      <li>🎨 <b>Portfolio</b> - Artyści stosują paralaksę, by ich strony wyglądały bardziej profesjonalnie.</li>
+      <li>🚀 <b>Storytelling</b> - NASA używa paralaksy w swoich interaktywnych opowieściach.</li>
+    </ul>
+  </div>
 
-    <div class="content">
-        <h3>🔹 Jak działa efekt paralaksy?</h3>
-        <ul>
-            <li>✅ Elementy bliżej użytkownika poruszają się szybciej.</li>
-            <li>✅ Elementy w tle poruszają się wolniej.</li>
-            <li>✅ Dzięki temu powstaje efekt głębi i trójwymiarowości.</li>
-        </ul>
-    </div>
+  <div class="content">
+    <h3>🔹 Jak działa efekt paralaksy?</h3>
+    <ul>
+      <li>✅ Elementy bliżej użytkownika poruszają się szybciej.</li>
+      <li>✅ Elementy w tle poruszają się wolniej.</li>
+      <li>✅ Dzięki temu powstaje efekt głębi i trójwymiarowości.</li>
+    </ul>
+  </div>
 
-    <div class="content">
-        <h3>🔹 Jak stworzyć efekt paralaksy?</h3>
-        <p>Efekt paralaksy można osiągnąć na dwa sposoby:</p>
+  <div class="content">
+    <h3>🔹 Jak stworzyć efekt paralaksy?</h3>
+    <p>Efekt paralaksy można osiągnąć na dwa sposoby:</p>
 
-        <h4>1️⃣ Metoda CSS – prosta i lekka</h4>
-        <p>Najprostszy sposób to użycie `background-attachment: fixed`:</p>
-        <div class="code-section">
-            <pre><code>
+    <h4>1️⃣ Metoda CSS – prosta i lekka</h4>
+    <p>Najprostszy sposób to użycie <code>background-attachment: fixed</code>:</p>
+    <div class="code-section">
+      <pre><code>
 .parallax {
     background-image: url('tlo.jpg');
     background-attachment: fixed;
@@ -55,57 +76,57 @@
     background-position: center;
     height: 100vh;
 }
-            </code></pre>
-        </div>
-        <p>✅ Używamy background-attachment: fixed, co sprawia, że tło pozostaje nieruchome podczas przewijania.</p>
-        <p>✅ Jest to najprostsza metoda, ale nie działa na wszystkich urządzeniach mobilnych.</p>
+      </code></pre>
+    </div>
+    <p>✅ Używamy <code>background-attachment: fixed</code>, co sprawia, że tło pozostaje nieruchome podczas przewijania.</p>
+    <p>✅ Jest to najprostsza metoda, ale nie działa na wszystkich urządzeniach mobilnych.</p>
 
-        <h4>2️⃣ Metoda JavaScript – bardziej dynamiczna</h4>
-        <p>Jeśli chcesz bardziej płynny efekt, możesz użyć JavaScriptu:</p>
-        <div class="code-section">
-            <pre><code>
+    <h4>2️⃣ Metoda JavaScript – bardziej dynamiczna</h4>
+    <p>Jeśli chcesz bardziej płynny efekt, możesz użyć JavaScriptu:</p>
+    <div class="code-section">
+      <pre><code>
 window.addEventListener('scroll', function() {
     let scrollPosition = window.scrollY;
     document.querySelector('.parallax').style.backgroundPositionY = scrollPosition * 0.5 + 'px';
 });
-            </code></pre>
-        </div>
-        <p>✅ Dzięki temu efekt jest płynny i dostosowuje się do przewijania użytkownika.</p>
-        <p>✅ Można łatwo dostosować prędkość ruchu tła.</p>
-        <p>✅ Działa na wszystkich urządzeniach, także mobilnych.</p>
+      </code></pre>
     </div>
+    <p>✅ Dzięki temu efekt jest płynny i dostosowuje się do przewijania użytkownika.</p>
+    <p>✅ Można łatwo dostosować prędkość ruchu tła.</p>
+    <p>✅ Działa na wszystkich urządzeniach, także mobilnych.</p>
+  </div>
 
-    <div class="content">
-        <h3>🔹 Zalety i wady efektu paralaksy</h3>
-        <h4>✅ Zalety:</h4>
-        <ul>
-            <li>✔️ Sprawia, że strony wyglądają nowocześnie i dynamicznie</li>
-            <li>✔️ Przyciąga uwagę użytkowników</li>
-            <li>✔️ Może poprawić UX i czas spędzony na stronie</li>
-            <li>✔️ Nadaje się do storytellingu i stron produktowych</li>
-        </ul>
-        <h4>❌ Wady:</h4>
-        <ul>
-            <li>❌ Może spowalniać stronę, jeśli nie jest zoptymalizowany</li>
-            <li>❌ Niektóre urządzenia mobilne nie obsługują efektu background-attachment: fixed</li>
-            <li>❌ Może powodować zawroty głowy u niektórych użytkowników</li>
-            <li>❌ Może negatywnie wpływać na SEO, jeśli nie jest poprawnie zaimplementowany</li>
-        </ul>
-    </div>
+  <div class="content">
+    <h3>🔹 Zalety i wady efektu paralaksy</h3>
+    <h4>✅ Zalety:</h4>
+    <ul>
+      <li>✔️ Sprawia, że strony wyglądają nowocześnie i dynamicznie</li>
+      <li>✔️ Przyciąga uwagę użytkowników</li>
+      <li>✔️ Może poprawić UX i czas spędzony na stronie</li>
+      <li>✔️ Nadaje się do storytellingu i stron produktowych</li>
+    </ul>
+    <h4>❌ Wady:</h4>
+    <ul>
+      <li>❌ Może spowalniać stronę, jeśli nie jest zoptymalizowany</li>
+      <li>❌ Niektóre urządzenia mobilne nie obsługują efektu background-attachment: fixed</li>
+      <li>❌ Może powodować zawroty głowy u niektórych użytkowników</li>
+      <li>❌ Może negatywnie wpływać na SEO, jeśli nie jest poprawnie zaimplementowany</li>
+    </ul>
+  </div>
 
-    <div class="content">
-        <h3>📌 Podsumowanie</h3>
-        <p>Efekt paralaksy to świetne narzędzie do poprawy wyglądu i funkcjonalności stron internetowych. Jednak aby uzyskać najlepsze efekty, należy pamiętać o kilku zasadach:</p>
-    </div>
+  <div class="content">
+    <h3>📌 Podsumowanie</h3>
+    <p>Efekt paralaksy to świetne narzędzie do poprawy wyglądu i funkcjonalności stron internetowych. Jednak aby uzyskać najlepsze efekty, należy pamiętać o kilku zasadach:</p>
+  </div>
 
-    <!-- test -->
-    <div class="quiz-section">
-        <h2>Test o Efekcie Paralaksy</h2>
-        <div id="quiz-container"></div>
-        <button onclick="submitQuiz()">Sprawdź odpowiedzi</button>
-        <p id="result"></p>
-    </div>
+  <!-- TEST -->
+  <div class="quiz-section">
+    <h2>🧠 Test o Efekcie Paralaksy</h2>
+    <div id="quiz-container"></div>
+    <button onclick="submitQuiz()">Sprawdź odpowiedzi</button>
+    <p id="result"></p>
+  </div>
 
-    <script src="js.p/script.js"></script>
+  <script src="js.p/script.js"></script>
 </body>
 </html>
